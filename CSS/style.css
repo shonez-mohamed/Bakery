@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+}
+
+
+/* Welcome Section */
+.logo{
+    display: inline-block;
+    margin-left:25px;
+    margin-right: 550px;
+    margin-top: 25px;
+}
+.list{
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.welcome{
+    height: 900px;
+    background-image: url(../Images/drew-coffman-1872.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.wel{
+    padding: 100px 50px;
+    margin-top: 100px;
+}
+.wel h1{  
+    font-weight: bolder;
+    font-size: 55px;
+}
+.wel p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.wel button{
+    width: 10%;
+    height: 7%;
+    border-radius: 8px;
+    font-weight: bolder;
+    color: white;
+}
+.btn-1{
+    background-color: #8F7854;
+}
+.btn-2{
+    background-color: transparent;
+}
+
+
+/* Who We Are Section */
+.who{
+  margin: 90px 65px;
+}
+.who-img{
+  display: inline-block;
+  width: 45%;
+}
+.who-img img{
+    width: 100%;
+    padding-right: 20px;
+}
+.who-text{
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  width: 54%;
+}
+.who-text ul li{
+    display: block;
+    margin-bottom: 40px;
+}
+.who-text ul img{
+    margin-right: 10px;
+    width: 35px;
+    border-radius: 50%;
+    vertical-align: text-bottom;
+}
+.who-text h2{
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 45px;
+}
+.who-text p{
+    margin-left: 80px;
+    margin-bottom: 40px;
+    
+}
+.who-text ul{
+    margin-left: 80px;
+}
+
+
+
+/* Our Location Section */
+.locat{
+    background-color: #F8F8F8;
+    padding: 90px 35px;
+}
+.locat-text{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    text-align: justify;
+
+}
+.locat-img{
+    display: inline-block;
+    width: 47%;
+}
+.locat-img img{
+    width: 100%;
+    padding-left: 20px;
+}
+.locat-text h2{
+    padding-top: 80px;
+    margin-left: 10px;
+    margin-bottom: 45px;
+}
+.locat-text p{
+    margin-left: 10px;
+    margin-bottom: 40px;
+    
+}
+
+
+/* Our Baking Section */
+.baking1{
+    text-align: center;
+    margin-bottom: 35px;
+    padding-top: 65px;
+}
+.baking2{
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.baking-imgs{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+}
+.baking-imgs img{
+    width: 100%;
+    margin: 40px 10px;
+} 
+
+
+/* Contact Information Section */
+.info{
+    background-color: #F8F8F8;
+    margin-top: 60px;
+}
+.info-text{
+    float: left;
+    width: 50%;
+    text-align: justify;
+    padding-top: 50px;
+    padding-left: 65px;
+}
+.info-img{
+    float: right;
+    width: 40%;
+    padding-right: 65px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.info-img img{
+    width: 100%;
+}
+.info-text img{
+    border-radius: 50%;
+    padding-right: 5px;
+    width: 20px;
+}
+.info-text ul li{
+    padding-bottom: 35px;
+    display: block;
+}
+
+
+/* Footer Section */
+.footer-text{
+    background-color: #403d38;
+    color:#969696 ;
+    width: 25%;
+    float: left;
+    height: 400px;
+    padding-top: 25px;
+}
+.footer-text h2{
+    color: white;
+}
+.footer-text img{
+    width: 20px;
+}
+
+
+/* End Section */
+.end{
+    padding-top: 60px;
+    background-color: #353330;
+    color: #797979;
+    text-align: center;
+}
+.end-icons li img{
+    border-radius: 50%;
+    width: 35px;
+    margin-bottom: 50px;
+}
+
+.clr{
+    clear: both;
+} 
